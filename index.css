@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+html {
+    font-size: 0.5vw;
+}
+
+header {
+    color: whitesmoke;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('./images/sea.jpg') no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+header nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    font-size: 2rem;
+    width: 50vw;
+    margin: 0 auto;
+    border: 2px solid blue;
+    background: rgba(100, 100, 100, 30%);
+}
+header nav a{
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+   
+}
+
+a.active{
+    color: gold;
+}
+nav a:hover{
+    color: brown;
+}
+
+h2 {
+    margin-top: 2vh;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+    width: 40vw;
+    height: 80vh;
+    margin: 5rem auto;
+}
+
+.wrapper a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 1rem;
+    position: relative;
+    background-size: cover;
+}
+
+.item:hover {
+    margin-bottom: 2rem;
+}
+
+.item span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    bottom: 2rem;
+    color: white;
+    background-color: gray;
+}
+
+.wrapper a:nth-child(1) .item {
+    background-image: url('./images/ship.jpg');
+}
+
+.wrapper a:nth-child(2) .item {
+    background-image: url('./images/ship2.jpg');
+}
+
+.wrapper a:nth-child(3) .item {
+    background-image: url('./images/ship3.jpg');
+}
+
+.wrapper a:nth-child(4) .item {
+    background-image: url('./images/ship4.jpg');
+}
+
+.wrapper a:nth-child(5) .item {
+    background-image: url('./images/libs.jpg');
+}
+.wrapper a:nth-child(6) .item {
+    background-image: url('./images/map.jpg');
+}

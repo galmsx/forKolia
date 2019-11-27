@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+html {
+    font-size: 0.5vw;
+}
+
+header {
+    color: black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('../../images/sultana3.jpg') no-repeat;
+    background-size: cover;
+}
+section{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section p{
+    font-size: 2rem;
+    width: 60vw;
+    height: auto;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-indent: 3rem;
+}

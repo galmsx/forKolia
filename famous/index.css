@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+html {
+    font-size: 0.5vw;
+}
+
+header {
+    color: white;
+    background-color: gray;
+    height: 7rem;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/famous.jpg') no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+h2 {
+    margin-top: 2vh;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50vw;
+    height: 40vh;
+    margin: 0 auto;
+}
+.wrapper:nth-child(2){
+    margin-top: 5rem;
+}
+
+.wrapper a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    width: 35vh;
+    height: 35vh;
+    background-color: white;
+    border-radius: 1rem;
+    position: relative;
+    background-size: cover;
+}
+
+.item:hover {
+    margin-bottom: 2rem;
+}
+
+.item span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 3rem;
+    bottom: 2rem;
+    color: white;
+    background-color: gray;
+}
+
+table th{
+    font-size: 20px;
+    border: 1px solid black;
+}
+table td{
+    font-size: 16px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.wrapper a:nth-child(1) .item {
+    background-image: url('../images/titanik.jpg');
+}
+
+.wrapper a:nth-child(2) .item {
+    background-image: url('../images/sultana.jpg');
+}
+
+.wrapper:nth-child(3) a .item {
+    background-image: url('../images/vilgelm.jpg');
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Тест</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <header>
+        <h1>Тестирование по теме:</h1>
+        <nav>
+            <a href="../index.html">Main</a>
+            <a href="../about/index.html">about</a>
+            <a href="../sea_codex/index.html">codex</a>
+            <a href="../statistics/index.html">statistics</a>
+            <a href="../famous/index.html">famous</a>
+            <a href="" class="active">tests</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Тест:</h2>
+        <p><b>Фамилия:</b><Br>
+            <input type="text" name="lastname" id="lastname">
+            <p><b>Имя:</b><Br>
+                <input type="text" name="firstname" id="firstname" >
+                <p><b>Отчество:</b><Br>
+                    <input type="text" name="otchestvo" id="otchestvo" >
+                    <br>
+                    <p><b>Выберите дату Вашего рождения:</b><Br>
+                        <input type="number" name="" id="day" placeholder="день" min="1" max="31">
+                        <select id="selectMonth"placeholder="month">
+                            <option>месяц</option>
+                        </select>
+                        <input type="number" name="" id="year" placeholder="Год">
+                        <form name="test" class="form" id="forma">
+                            <p><b>Что такое кораблекрушение:</b><Br>
+                                <input type="radio" name="one" value="0"> Падение корабля с неба<Br>
+                                <input type="radio" name="one" value="1"> Морское происшествие, в следстии которогог
+                                морское судно идет ко дну<Br>
+                                <input type="radio" name="one" value="0"> Национальный праздник<Br>
+                            </p>
+                            <br>
+                            <p><b>Чаще всего караблекрушения происходят:</b><Br>
+                                <input type="radio" name="two" value="1"> Южный китай, индокитай<Br>
+                                <input type="radio" name="two" value="0"> Япония, корея<Br>
+                                <input type="radio" name="two" value="0"> Восточное средиземное и черное море<Br>
+                            </p>
+                            <br>
+                            <p><b>Главные причины караблекрушений:</b><Br>
+                                <input type="radio" name="three" value="1"> Человеческий фактор, пренебрежение техниой
+                                безопасности<Br>
+                                <input type="radio" name="three" value="0"> "Смотри как я могу"<Br>
+                                <input type="radio" name="three" value="0">"Фигня, смотри как надо" <Br>
+                            </p>
+                            <br>
+                            <p>
+                                <input type="button" id="calc" value="Подсчитать результаты">
+                                <input type="reset" value="Сброс">
+                            </p>
+                            <br>
+                            <br>
+                            <span class="itog">Итого баллов:</span><input type="text" name="result" readonly>
+                        </form>
+    </section>
+    <script src="./test.js"></script>
+</body>
+
+</html>

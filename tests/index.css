@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 0.5vw;
+}
+
+header {
+    color: black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+header h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+header nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    font-size: 2rem;
+    width: 50vw;
+    margin: 0 auto;
+    border: 2px solid blue;
+    background: rgba(100, 100, 100, 30%);
+}
+header nav a{
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: white;
+   
+}
+
+a.active{
+    color: gold;
+}
+nav a:hover{
+    color: brown;
+}
+
+h2 {
+    text-align: left;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/ship.jpg') no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+section{
+    margin-bottom: 30px;
+}
+
+section p {
+    font-size: 2rem;
+    width: 60vw;
+    height: auto;
+    padding: 2rem;
+    text-indent: 3rem;
+}
+
+section ul {
+    list-style-type: circle;
+    width: 60vw;
+    padding: 4rem;
+    border-radius: 2rem;
+    text-indent: 2rem;
+    font-size: 2rem;
+    width: 60vw;
+    height: auto;
+}
+.title{
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+ul li{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.itog{
+    font-size: 20px;
+}

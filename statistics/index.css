@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 0.5vw;
+}
+
+header {
+    color: black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/statistics.jpg') no-repeat;
+    background-size: cover;
+}
+
+.formpod-table {
+    width: 80vw;
+    font: 12px Tahoma;
+    color: white;
+    font-size: 12px;
+    margin: 5rem auto;
+    border-right: 1px solid #a6bbce;
+    border-top: 1px solid #a6bbce;
+    border-spacing: 0px;
+    background: rgba(100, 100, 100, 30%);
+}
+ td{
+    border: 1px solid white;
+}
+thead{
+    background-color: gray;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}

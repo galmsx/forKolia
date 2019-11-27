@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 0.5vw;
+}
+
+header {
+    color: black;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+h2 {
+    text-align: left;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/codex.jpg') no-repeat;
+    background-size: cover;
+}
+
+section p {
+    font-size: 2rem;
+    width: 60vw;
+    height: auto;
+    padding: 2rem;
+    text-indent: 3rem;
+}
+
+section ul {
+    list-style-type: circle;
+    width: 60vw;
+    padding: 4rem;
+    border-radius: 2rem;
+    text-indent: 2rem;
+    font-size: 2rem;
+    width: 60vw;
+    height: auto;
+}
